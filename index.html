@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coffee Matters</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo-img">
+                <!--<img src="logo.png" alt="Coffee Matters Logo">-->
+            </div>
+            <h1>Coffee Matters</h1>
+        </div>
+    </header>
+    <main>
+        <div class="purchase-info">
+            <article class="items">
+                <h1 class="article-title">ITEMS</h1>
+                <article class="item">
+                    <div class="item-details">
+                        <p class="item-count">1x</p>
+                        <div>
+                            <p class="item-name">Cappuccino</p>
+                            <p class="item-desc">Lite foam</p>
+                        </div>
+                    </div>
+                    <p class="item-price">$3.00</p>
+                </article>
+                <hr>
+                <article class="item">
+                    <div class="item-details">
+                        <p class="item-count">1x</p>
+                        <div>
+                            <p class="item-name">Cappuccino</p>
+                            <p class="item-desc">Lite milk</p>
+                            <p class="item-desc">Double espresso</p>
+                        </div>
+                    </div>
+                    <p class="item-price">$3.00</p>
+                </article>
+                <hr>
+                <article class="item">
+                    <div class="item-details">
+                        <p class="item-count">1x</p>
+                        <div>
+                            <p class="item-name">Croissant</p>
+                            <p class="item-desc">Butter</p>
+                        </div>
+                    </div>
+                    <p class="item-price">$3.00</p>
+                </article>
+            </article>
+            <form>
+                <article class="name">
+                    <h1 class="article-title">NAME</h1>
+                    <div class="input-container">
+                        <label for="name">Name for order</label>
+                        <input type="text" name="name" placeholder="Susano Perfect" required>
+                    </div>
+                </article>
+                <article class="payment">
+                    <h1 class="article-title">PAYMENT</h1>
+                    <div class="input-container">
+                        <label for="card">Card Number</label>
+                        <input type="text" name="card" placeholder="**** **** **** 1234" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="CVV">CVV Number</label>
+                        <input type="password" name="CVV" placeholder="123" required>
+                    </div>
+                </article>
+            </form>
+        </div>
+        <article class="total">
+            <div class="sub-total">
+                <h1>Subtotal</h1>
+                <p>$0.00</p>
+            </div>
+            <div class="tax">
+                <h1>Tax</h1>
+                <p>$0.00</p>
+            </div>
+            <div class="total-amount">
+                <h1>Total</h1>
+                <p>$0.00</p>
+            </div>
+            <button type="submit">Place Order</button>
+        </article>
+    </main>
+</body>
+
+</html>

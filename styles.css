@@ -1,0 +1,123 @@
+/* #43281c > #eee1d5 > #fbf2c0*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    overflow-y: hidden;
+    min-width: 740px;
+}
+header{
+    background-color: #43281c;
+    padding: 1.6em;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container > h1{
+    color: #fbf2c0;
+}
+.logo-img{
+    width: 4em;
+    height: 4em;
+    background-image: url(/logo.png);
+    background-size: cover;
+}
+main{
+    padding: 4.8em 1.6em;
+}
+.purchase-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.8em;
+}
+.items, .name, .payment{
+    background-color: #eee1d5;
+    color: #43281c;
+    padding: 0.5em 1em;
+    border-radius: 0.6em;
+    padding-bottom: 2.5em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.item-name, .item-price{
+    font-weight: semi-bold;
+    color: black;
+}
+hr{
+    border-color: #43281c34;
+}
+.article-title{
+    font-weight: normal;
+    
+}
+.item{
+    padding: 1.6em;
+    display: flex;
+    justify-content: space-between
+}
+.item-details{
+    display: flex;
+    gap: 1em;
+}
+.total{
+    padding: 3.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sub-total, .tax, .total-amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px; 
+}
+.sub-total > h1, .tax > h1 {
+    font-weight: normal;
+    
+}
+.total > button {
+    margin-top: 1.6em;
+    background-color: #eee1d5;
+    padding: 1.3em;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 3em;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input-container > label{
+    position: relative;
+    top: 0.8em;
+    left: 1.6em;
+    background-color: #eee1d5;
+    flex: 0 0 auto;
+    padding: 0.5em;
+}
+.input-container > input{
+    font-size: 1.1em;
+    border-radius: 3em;
+    padding: 1em 1.6em;
+    background-color: #eee1d5;
+    width: 100%;
+    border: 1px solid #43281c;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
